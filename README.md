@@ -1,4 +1,3 @@
-DVWA 
 DVWA AND ITS INSTALLATION 
 DVWA: DVWA stands for Damn Vulnerable Web Application.
 It is basically a PHP/SQL web Application. It is a software project that intentionally includes security vulnerabilities for security professionals to test their skills and tools and understand the process of securing web applications.
@@ -17,10 +16,9 @@ Select Download that can be found if you open the page and scroll down.
 4)	Now, Go to XAMPP that is downloaded previously, and click on explorer, it opens a new tab. Click on htdocs found in the drop-down list of that tab and copy the extracted files that are saved on the desktop and paste it in the htdocs folder.
 5)	Now go back to XAMPP tab and click on start action found next to Apache, MYSQL.
 6)	Go to the previous tab where you found htdocs. Now click on config. It opens a folder named “config.inc.php.dist”. Click on it, where you will be seeing a notepad having some variables. 
-             
-To 
-         
-     
+	$DVWA[ "db_user" ] = "dvwa";  to $DVWA[ "db_user" ] = "root";
+ $DVWA[ "db_password"] = "p@ssw0rd"; to  $DVWA[ "db_password"] = " ";            
+            
  Save and close the notepad after making changes.
 7)	Open control Panel and click on show hidden files and folders under file explorer options and uncheck “Hide extensions to known types”. Click on apply and save the changes and close the control panel.
 8)	Change the name of “config.inc.php.dist folder to “config.inc.php”. click on Ok and close the tab.
