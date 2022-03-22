@@ -1,7 +1,5 @@
 DVWA AND ITS INSTALLATION 
-DVWA: DVWA stands for Damn Vulnerable Web Application.
-It is basically a PHP/SQL web Application. It is a software project that intentionally includes security vulnerabilities for security professionals to test their skills and tools and understand the process of securing web applications.
-Steps to download and install DVWA on your windows:
+ 
 1)	Before Installing DVWA, make sure you download and Install XAMPP Control Panel.
 XAMPP Control Panel: It is a management tool(server) that provides the suitable environment for testing MYSQL, PHP, Apache on the computer. It is a free and open-source PHP development environment developed by Apache.
 
